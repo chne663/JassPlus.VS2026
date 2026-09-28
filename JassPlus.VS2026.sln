@@ -1,0 +1,44 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JassPlus.Language", "src\JassPlus.Language\JassPlus.Language.csproj", "{8F2B1E10-9A2C-4B0E-9C1E-1A2B3C4D5E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JassPlus.VSIX", "src\JassPlus.VSIX\JassPlus.VSIX.csproj", "{2C6D9F3A-7B4E-4A1C-8D2F-3E4F5A6B7C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JassPlus.Language.Tests", "tests\JassPlus.Language.Tests\JassPlus.Language.Tests.csproj", "{5A1B2C3D-4E5F-4061-8A9B-0C1D2E3F4A5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E8D7C6B-5A4F-4321-8B9C-1D2E3F4A5B6C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		LICENSE = LICENSE
+		CHANGELOG.md = CHANGELOG.md
+		docs\architecture.md = docs\architecture.md
+		docs\development.md = docs\development.md
+		docs\jass-language.md = docs\jass-language.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F2B1E10-9A2C-4B0E-9C1E-1A2B3C4D5E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2B1E10-9A2C-4B0E-9C1E-1A2B3C4D5E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2B1E10-9A2C-4B0E-9C1E-1A2B3C4D5E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2B1E10-9A2C-4B0E-9C1E-1A2B3C4D5E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6D9F3A-7B4E-4A1C-8D2F-3E4F5A6B7C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6D9F3A-7B4E-4A1C-8D2F-3E4F5A6B7C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6D9F3A-7B4E-4A1C-8D2F-3E4F5A6B7C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6D9F3A-7B4E-4A1C-8D2F-3E4F5A6B7C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1B2C3D-4E5F-4061-8A9B-0C1D2E3F4A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1B2C3D-4E5F-4061-8A9B-0C1D2E3F4A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1B2C3D-4E5F-4061-8A9B-0C1D2E3F4A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1B2C3D-4E5F-4061-8A9B-0C1D2E3F4A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
