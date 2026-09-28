@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<JassProject>
+    <Name>SampleMap</Name>
+
+    <Files>
+        <File Include="Scripts\Main.j" />
+        <File Include="Scripts\Hero.j" />
+        <File Include="Scripts\Ability.j" />
+    </Files>
+
+    <Libraries>
+        <Library Include="Libraries\TimerUtils.j" />
+        <Library Include="Libraries\Table.j" />
+    </Libraries>
+</JassProject>
